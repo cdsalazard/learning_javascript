@@ -58,14 +58,12 @@ console.log(0 === "") // False
 console.log(undefined == null) // true
 console.log(undefined === null) // false
 
-
 // Operadores Lógicos
 // and &&, or ||
 
 console.log(5 > 10 && 15 < 20)
 console.log(5 > 10 || 15 < 20)
 console.log(5 > 10 && 15 > 20 || 30 < 40) // Aqui al parecer el or se evalua de ultimo
-
 
 // operador de negacion !
 console.log(5 > 10 && 15 < 20)
