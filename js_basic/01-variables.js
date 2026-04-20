@@ -16,6 +16,10 @@ helloWorld2 = "Hello, JavaScript con let, reasignada"
 console.log(helloWorld2)
 
 
+helloWorld2 = 5
+console.log(helloWorld2)
+
+
 // const: las variables let solo son accesibles dentro de un bloque
 const helloWorld3 = "Hello, JavaScript con const"
 console.log(helloWorld3)
