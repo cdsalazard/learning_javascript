@@ -16,3 +16,35 @@ if(age == 37){
 
 const message = age == 27 ? "La edad es 27" : "La edad no es 37"
 console.log(message)
+
+// switch: se usa para comparar condiciones que se revisan frente a unica varaible
+
+let day = 10
+let dayName
+switch(day){
+    case 0:
+        dayName = "Lunes"
+        break
+    case 1:
+        dayName = "Martes"
+        break
+    case 2:
+        dayName = "Miercoles"
+        break
+    case 3:
+        dayName = "Jueves"
+        break
+    case 4:
+        dayName = "Viernes"
+        break
+    case 5:
+        dayName = "Sabado"
+        break
+    case 6:
+        dayName = "Domingo"
+        break
+    default:
+        dayName = "Número de dia incorrecto"
+}
+
+console.log(dayName)
