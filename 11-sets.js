@@ -29,6 +29,6 @@ let myArray = Array.from(mySet)
 console.log(myArray)
 
 
-// Convertir array en set
+// Convertir array en set, los sets no guardan duplicados
 let myArray3 = new Set(myArray)
 console.log(myArray3)
