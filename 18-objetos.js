@@ -54,3 +54,24 @@ console.log("Iteración sobre el objeto, solo devuelve valores para las propieda
 for (let value in person2){
     console.log(value + ":" + person[value])
 }
+
+
+// Acceso a las propiedades dentro del objeto en el que se encuentra
+let person5 = {
+    name: "Dave",
+    age: 37,
+    alias: "davedev",
+    walk: function () {
+        console.log("La persona camina")
+    },
+    job: {
+        trabajo: "programador",
+        experiencia: "10",
+        work: function() {
+            console.log(`La persona trabaja de ${this.trabajo}`)
+        }
+
+    }
+}
+
+person5.job.work()
