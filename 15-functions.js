@@ -63,8 +63,10 @@ applyFunc(myFunc4, "Funcion de orden superior")
 
 //forEach: Es una función para ejecutar bucles de elementos iterables
 myArray = [1,2,3,4,5]
-
+ // Con arrow functions
 myArray.forEach(element => console.log(element));
+
+// Con funciones definidas normalmente
 myArray.forEach(function (element) {
   console.log(element)
 })
